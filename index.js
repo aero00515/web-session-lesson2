@@ -41,7 +41,7 @@ app.post('/', async (req, res) => {
 
   // Response
   const apiResponse = response.getResponse({
-    message: '',
+    message: '// TODO: meake your own success message',
     params: {
       reqId,
       ...body,
